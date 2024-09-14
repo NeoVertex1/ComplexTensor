@@ -23,10 +23,10 @@
   <!-- Key Concepts -->
   <g transform="translate(50, 180)">
     <text font-family="Arial, sans-serif" font-size="28" fill="#82b1ff" filter="url(#glow)">Key Concepts:</text>
-    <text y="50" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Dual Real-Imaginary Representation</text>
-    <text y="90" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum-Inspired Transformations</text>
-    <text y="130" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Gradient Flow Control</text>
-    <text y="170" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Hyperdimensional Computing Support</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Dual Real-Imaginary Representation</text>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum-Inspired Transformations</text>
+    <text x="0" y="130" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Gradient Flow Control</text>
+    <text x="0" y="170" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Hyperdimensional Computing Support</text>
   </g>
 
   <!-- Complex Number Visualization -->
@@ -54,24 +54,24 @@
   <!-- Code Example -->
   <g transform="translate(500, 400)">
     <text font-family="Arial, sans-serif" font-size="28" fill="#82b1ff" filter="url(#glow)">Code Example</text>
-    <rect x="0" y="40" width="450" height="400" fill="rgba(255,255,255,0.1)"/>
+    <rect x="0" y="40" width="450" height="400" fill="white" opacity="0.1"/>
     <text x="10" y="70" font-family="monospace" font-size="16" fill="#ffffff">
-      <tspan x="10" dy="20">import torch</tspan>
-      <tspan x="10" dy="25">from complextensor import ComplexTensor</tspan>
-      <tspan x="10" dy="25"></tspan>
-      <tspan x="10" dy="25"># Create complex tensors</tspan>
-      <tspan x="10" dy="25">ct1 = ComplexTensor(torch.randn(3, 3),</tspan>
-      <tspan x="10" dy="25">                    torch.randn(3, 3))</tspan>
-      <tspan x="10" dy="25">ct2 = ComplexTensor(torch.randn(3, 3),</tspan>
-      <tspan x="10" dy="25">                    torch.randn(3, 3))</tspan>
-      <tspan x="10" dy="25"></tspan>
-      <tspan x="10" dy="25"># Perform complex operations</tspan>
-      <tspan x="10" dy="25">sum_ct = ct1 + ct2</tspan>
-      <tspan x="10" dy="25">prod_ct = ct1 * ct2</tspan>
-      <tspan x="10" dy="25">exp_ct = ct1.exp()</tspan>
-      <tspan x="10" dy="25"></tspan>
-      <tspan x="10" dy="25"># Quantum-inspired operation</tspan>
-      <tspan x="10" dy="25">quantum_ct = ct1.apply_quantum_gate('H')</tspan>
+      <tspan x="10" dy="1.2em">import torch</tspan>
+      <tspan x="10" dy="1.2em">from complextensor import ComplexTensor</tspan>
+      <tspan x="10" dy="1.2em"></tspan>
+      <tspan x="10" dy="1.2em"># Create complex tensors</tspan>
+      <tspan x="10" dy="1.2em">ct1 = ComplexTensor(torch.randn(3, 3),</tspan>
+      <tspan x="10" dy="1.2em">                    torch.randn(3, 3))</tspan>
+      <tspan x="10" dy="1.2em">ct2 = ComplexTensor(torch.randn(3, 3),</tspan>
+      <tspan x="10" dy="1.2em">                    torch.randn(3, 3))</tspan>
+      <tspan x="10" dy="1.2em"></tspan>
+      <tspan x="10" dy="1.2em"># Perform complex operations</tspan>
+      <tspan x="10" dy="1.2em">sum_ct = ct1 + ct2</tspan>
+      <tspan x="10" dy="1.2em">prod_ct = ct1 * ct2</tspan>
+      <tspan x="10" dy="1.2em">exp_ct = ct1.exp()</tspan>
+      <tspan x="10" dy="1.2em"></tspan>
+      <tspan x="10" dy="1.2em"># Quantum-inspired operation</tspan>
+      <tspan x="10" dy="1.2em">quantum_ct = ct1.apply_quantum_gate('H')</tspan>
     </text>
   </g>
 
@@ -116,20 +116,20 @@
   <!-- Applications and Future -->
   <g transform="translate(50, 1250)">
     <text font-family="Arial, sans-serif" font-size="28" fill="#82b1ff" filter="url(#glow)">Applications &amp; Future Developments</text>
-    <text y="50" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum Machine Learning</text>
-    <text y="90" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Advanced Signal Processing</text>
-    <text y="130" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum Algorithm Simulation</text>
-    <text y="170" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum-Classical Hybrid Networks</text>
-    <text y="210" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum Tensor Networks</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum Machine Learning</text>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Advanced Signal Processing</text>
+    <text x="0" y="130" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum Algorithm Simulation</text>
+    <text x="0" y="170" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum-Classical Hybrid Networks</text>
+    <text x="0" y="210" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum Tensor Networks</text>
   </g>
 
   <!-- Mathematical Foundation -->
   <g transform="translate(500, 1250)">
     <text font-family="Arial, sans-serif" font-size="28" fill="#82b1ff" filter="url(#glow)">Mathematical Foundation</text>
-    <text y="50" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Euler's Formula: e^(iθ) = cos(θ) + i·sin(θ)</text>
-    <text y="90" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum State: |ψ⟩ = α|0⟩ + β|1⟩</text>
-    <text y="130" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Fourier Transform: F(ω) = ∫ f(t) e^(-iωt) dt</text>
-    <text y="170" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Schrödinger Equation: iℏ ∂/∂t |ψ⟩ = H |ψ⟩</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Euler's Formula: e^(iθ) = cos(θ) + i·sin(θ)</text>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum State: |ψ⟩ = α|0⟩ + β|1⟩</text>
+    <text x="0" y="130" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Fourier Transform: F(ω) = ∫ f(t) e^(-iωt) dt</text>
+    <text x="0" y="170" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Schrödinger Equation: iℏ ∂/∂t |ψ⟩ = H |ψ⟩</text>
   </g>
 
   <!-- Conclusion -->
