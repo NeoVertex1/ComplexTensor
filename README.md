@@ -49,7 +49,7 @@ ComplexTensor is crafted to help you focus on your projects without getting bogg
 
 ---
 
-Feel free to customize this introduction further to better match the specific features and goals of your project!
+
 
 ## Features
 
