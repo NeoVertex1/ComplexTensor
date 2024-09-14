@@ -4,7 +4,7 @@
 
 ![complextensor](complextensor.svg)
 
-![License](https://img.shields.io/github/license/yourusername/ComplexTensor)
+![License](https://img.shields.io/github/license/NeoVertex1/ComplexTensor)
 ![PyPI](https://img.shields.io/pypi/v/complextensor)
 ![Python Versions](https://img.shields.io/pypi/pyversions/complextensor)
 
@@ -274,7 +274,7 @@ python -m unittest tests.test_complex_tensor
 
 ## Reporting Issues
 
-If you encounter any bugs or have suggestions for improvements, please open an issue [here](https://github.com/yourusername/ComplexTensor/issues).
+If you encounter any bugs or have suggestions for improvements, please open an issue [here](https://github.com/NeoVertex1/ComplexTensor/issues).
 
 
 
