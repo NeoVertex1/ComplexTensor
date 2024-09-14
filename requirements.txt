@@ -1,0 +1,2 @@
+torch>=1.8.0
+unittest; python_version >= "3.6"

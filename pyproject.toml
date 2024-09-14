@@ -1,0 +1,79 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "complextensor"
+version = "0.1.0"
+description = "A PyTorch-based library for complex tensor operations."
+readme = "README.md"
+requires-python = ">=3.6"
+license = { file = "LICENSE" }
+keywords = ["complex", "tensor", "pytorch", "machine learning", "signal processing"]
+authors = [
+  { name = "bluecow009", email = "0xbluecow@protonmail.com" }
+]
+dependencies = [
+  "torch>=1.8.0",
+  "numpy>=1.18.0"
+]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Mathematics",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+Homepage = "https://github.com/NeoVertex1/ComplexTensor"
+Documentation = "https://complextensor.readthedocs.io"
+Repository = "https://github.com/NeoVertex1/ComplexTensor"
+"Bug Tracker" = "https://github.com/NeoVertex1/ComplexTensor/issues"
+
+[project.scripts]
+complextensor-cli = "complextensor.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 88
+target-version = ['py36', 'py37', 'py38', 'py39', 'py310']
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+files = ["src/complextensor"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = ["src/tests"]
