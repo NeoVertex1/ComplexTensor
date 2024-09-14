@@ -74,8 +74,6 @@
       <tspan x="10" dy="1.2em">prod_ct = ct1 * ct2</tspan>
       <tspan x="10" dy="1.2em">exp_ct = ct1.exp()</tspan>
       <tspan x="10" dy="1.2em"></tspan>
-      <tspan x="10" dy="1.2em"># Quantum-inspired operation</tspan>
-      <tspan x="10" dy="1.2em">quantum_ct = ct1.apply_quantum_gate('H')</tspan>
     </text>
   </g>
 
