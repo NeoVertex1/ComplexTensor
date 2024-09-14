@@ -81,7 +81,7 @@ pip install -e .
 
 ```python
 import torch
-from complex_tensor import ComplexTensor
+from complextensor import ComplexTensor
 
 # Initialize real and imaginary parts
 real = torch.tensor([1.0, 2.0, 3.0], requires_grad=True)
@@ -408,7 +408,7 @@ more examples:
 
 ```python
 import torch
-from complex_tensor import ComplexTensor
+from complextensor import ComplexTensor
 
 def main():
     # Initialize real and imaginary parts
