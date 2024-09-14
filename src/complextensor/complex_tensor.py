@@ -7,7 +7,7 @@ from typing import Tuple, Dict, Optional, Union
 
 # Configure the logger for the module
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)  # Set to DEBUG to capture all debug messages
+logger.setLevel(logging.DEBUG)  # Set to DEBUG to capture all debug messages, set to CRITICAL to reduce messages.
 
 # Create console handler with a higher log level
 ch = logging.StreamHandler()
