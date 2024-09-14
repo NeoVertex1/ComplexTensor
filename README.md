@@ -31,7 +31,7 @@
 
 **ComplexTensor** is a Python library built on top of [PyTorch](https://pytorch.org/) that provides comprehensive support for complex number operations within neural network models. It extends PyTorch's capabilities by handling complex tensors seamlessly, enabling advanced mathematical operations, custom gradient manipulations, and optimized performance on both CPU and GPU devices.
 
-Sure! Here's a concise and engaging introduction for your **README** that highlights the purpose of the **ComplexTensor** project, emphasizing its benefits for ease of learning and onboarding:
+
 
 ---
 
