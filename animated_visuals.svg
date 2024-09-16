@@ -125,7 +125,7 @@
     <text font-family="Arial, sans-serif" font-size="28" fill="#82b1ff" filter="url(#glow)">Applications &amp; Future Developments</text>
     <text x="0" y="50" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum Machine Learning</text>
     <text x="0" y="90" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Advanced Signal Processing</text>
-    <text x="0" y="130" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum Algorithm Simulation</text>
+    <text x="0" y="130" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum Key Distribution</text>
     <text x="0" y="170" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum-Classical Hybrid Networks</text>
     <text x="0" y="210" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">• Quantum Tensor Networks</text>
   </g>
