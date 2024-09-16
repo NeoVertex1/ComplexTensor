@@ -2,7 +2,7 @@
 # ComplexTensor
 
 
-![complextensor2_changed](animated_visuals.svg)
+![complextensor2_changed_test_qkd](animated_visuals.svg)
 
 ![License](https://img.shields.io/github/license/NeoVertex1/ComplexTensor)
 ![PyPI](https://img.shields.io/pypi/v/complextensor)
