@@ -2,6 +2,10 @@
 # ComplexTensor
 
 
+### **_new:_** 
+> 🚀 ` The tutorial is now available for preliminary testing. It covers essential operations with complex numbers and demonstrates the library's functionalities relevant to research applications. Please post any questions or suggestions in the issues section. ` [link to colab](https://colab.research.google.com/drive/1GCJt2a71WgrDd3OvIdsNOU3HNW8-r0Wf?usp=sharing) 
+
+
 ![complextensor2_changed_test__aaaqkd](animated_visuals.svg)
 
 ![License](https://img.shields.io/github/license/NeoVertex1/ComplexTensor)
