@@ -7,11 +7,11 @@ from typing import Tuple, Dict, Optional, Union
 
 # Configure the logger for the module
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)  # Set to DEBUG to capture all debug messages, set to CRITICAL to reduce messages.
+logger.setLevel(logging.ERROR)  # Set to DEBUG to capture all debug messages, set to CRITICAL to reduce messages.
 
 # Create console handler with a higher log level
 ch = logging.StreamHandler()
-ch.setLevel(logging.DEBUG)
+ch.setLevel(logging.ERROR)
 
 # Create formatter and add it to the handler
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -208,6 +208,45 @@ class ComplexTensor:
         except RuntimeError as e:
             logger.error(f"Multiplication failed due to shape mismatch: {e}")
             raise
+
+    def __matmul__(self, other: 'ComplexTensor') -> 'ComplexTensor':
+        """
+        Implements matrix multiplication for ComplexTensor.
+
+        Args:
+            other (ComplexTensor): The other ComplexTensor to multiply with.
+
+        Returns:
+            ComplexTensor: The result of the matrix multiplication.
+
+        Raises:
+            TypeError: If other is not a ComplexTensor.
+            ValueError: If the shapes of the tensors are not compatible for matrix multiplication.
+        """
+        logger.debug(f"Performing matrix multiplication between ComplexTensors: "
+                    f"self.real shape {self.real.shape}, other.real shape {other.real.shape}")
+        
+        if not isinstance(other, ComplexTensor):
+            logger.error("Matrix multiplication failed: Other operand is not a ComplexTensor instance.")
+            raise TypeError("Matrix multiplication is only supported between ComplexTensor instances")
+
+        # Ensure compatibility of shapes for matrix multiplication
+        if self.real.shape[-1] != other.real.shape[-2]:
+            logger.error(f"Matrix multiplication failed: incompatible shapes "
+                        f"{self.real.shape} and {other.real.shape}.")
+            raise ValueError("Matrix multiplication requires matching inner dimensions")
+
+        # Compute the real and imaginary parts for the result
+        real_part = self.real @ other.real - self.imag @ other.imag
+        imag_part = self.real @ other.imag + self.imag @ other.real
+
+        logger.debug(f"Matrix multiplication result: real_part shape {real_part.shape}, "
+                    f"imag_part shape {imag_part.shape}")
+
+        # Return a new ComplexTensor with the computed real and imaginary parts
+        return ComplexTensor(real=real_part, imag=imag_part)
+
+
 
     def __truediv__(self, other: 'ComplexTensor') -> 'ComplexTensor':
         """
