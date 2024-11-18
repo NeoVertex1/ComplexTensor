@@ -16,7 +16,7 @@ class TestComplexEmbeddingsVerbose(unittest.TestCase):
         Set up test fixtures and output directories. Initialize a sample real embedding tensor for testing.
         """
         self.batch_size = 16
-        self.embedding_dim = 1048576  # Must be even for complex embeddings
+        self.embedding_dim = 1024  # Must be even for complex embeddings
         self.num_embeddings = 1000
 
         # Sample real embeddings

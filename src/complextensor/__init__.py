@@ -6,4 +6,5 @@ from src.complextensor.complex_embeddings import (
     complex_to_real_embeddings,
     ComplexEmbedding,
 )
+from src.complextensor.quantum_state_processor import QuantumStateProcessor
 
