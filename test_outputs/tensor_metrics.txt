@@ -1,0 +1,5 @@
+=== Tensor Metrics ===
+Evolved Entropy: 11.799986
+Evolved Norm: 91595.039062
+Optimized Entropy: 0.374854
+Optimized Norm: 1.000000
